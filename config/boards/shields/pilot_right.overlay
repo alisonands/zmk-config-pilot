@@ -1,4 +1,4 @@
-#include "my_keyboard.dtsi" 
+#include "pilot.dtsi" 
 
 &default_transform { 
     col-offset = <6>;
