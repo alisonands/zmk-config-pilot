@@ -1,15 +1,15 @@
-if SHIELD_MY_KEYBOARD_LEFT
+if SHIELD_PILOT_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "keyboard"
+    default "Pilot"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
+if SHIELD_PILOT_LEFT || SHIELD_PILOT_RIGHT
 
 config ZMK_SPLIT
     default y

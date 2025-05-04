@@ -1,6 +1,5 @@
-#include "my_keyboard.dtsi" // The shared dtsi file is included in the overlay
+#include "my_keyboard.dtsi" 
 
-// Label of the kscan node in the dtsi
 &kscan0 {
     col-gpios
         = <&pro_micro 1  GPIO_ACTIVE_HIGH>
